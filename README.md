@@ -21,6 +21,38 @@
 
 <br/>
 
+## 🐍 Jogue a cobrinha!
+Clique numa seta, depois em **Create**, e em alguns segundos o tabuleiro se atualiza aqui (recarregue a página). 🍎 = comida.
+
+<!-- SNAKE:START -->
+<p align="center">
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛🟩🟩🐍⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛🍎⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛<br>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+</p>
+
+<p align="center">
+<b>Pontos:</b> 0 &nbsp;|&nbsp; <b>Recorde:</b> 0 &nbsp;|&nbsp; <b>Jogadas:</b> 0
+</p>
+
+<p align="center">
+<a href="https://github.com/jrcn1991/jrcn1991/issues/new?title=snake%7Cup&body=Clique+em+%22Create%22+para+enviar+a+jogada.+N%C3%A3o+precisa+escrever+nada.">⬆️</a><br>
+<a href="https://github.com/jrcn1991/jrcn1991/issues/new?title=snake%7Cleft&body=Clique+em+%22Create%22+para+enviar+a+jogada.+N%C3%A3o+precisa+escrever+nada.">⬅️</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/jrcn1991/jrcn1991/issues/new?title=snake%7Cright&body=Clique+em+%22Create%22+para+enviar+a+jogada.+N%C3%A3o+precisa+escrever+nada.">➡️</a><br>
+<a href="https://github.com/jrcn1991/jrcn1991/issues/new?title=snake%7Cdown&body=Clique+em+%22Create%22+para+enviar+a+jogada.+N%C3%A3o+precisa+escrever+nada.">⬇️</a>
+</p>
+
+<p align="center"><sub>Últimos jogadores: ninguém ainda</sub></p>
+<!-- SNAKE:END -->
+
+<br/>
+
 <!--
 ## 📊 Estatísticas do GitHub
 <div>

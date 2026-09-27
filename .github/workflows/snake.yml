@@ -1,0 +1,57 @@
+name: Jogo da cobrinha
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Uma jogada por vez, na ordem em que chegaram
+concurrency:
+  group: snake
+  cancel-in-progress: false
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'snake|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Aplicar jogada
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          CMD="${TITLE#snake|}"
+          python game/snake.py "$CMD" "$PLAYER" > result.txt
+          cat result.txt
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          git diff --cached --quiet || git commit -m "🐍 jogada de @${{ github.event.issue.user.login }}"
+          git pull --rebase
+          git push
+
+      - name: Responder e fechar a issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          {
+            cat result.txt
+            echo
+            echo "Volte para o [perfil](https://github.com/${{ github.repository_owner }}) para ver o tabuleiro e jogar de novo."
+          } > comment.md
+          gh issue comment "$ISSUE" --repo "${{ github.repository }}" --body-file comment.md
+          gh issue close "$ISSUE" --repo "${{ github.repository }}"

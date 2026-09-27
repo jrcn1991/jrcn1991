@@ -1,0 +1,26 @@
+{
+  "snake": [
+    [
+      5,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "dir": "right",
+  "food": [
+    1,
+    7
+  ],
+  "score": 0,
+  "best": 0,
+  "moves": 0,
+  "over": false,
+  "players": []
+}
