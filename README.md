@@ -1,25 +1,29 @@
-### ✨ Olá sou Rafael✨
-- Trabalho com gestão de tecnologia e desenvolvimento.
-- Desenvolvo automações para melhoria de processos.
+<p align="center"><img src="assets/hero.svg" alt="Rafael Neves — Gestão de Tecnologia · Desenvolvimento · Automação" width="100%"></p>
 
+<details open>
+<summary><img src="assets/mod-sobre.svg" alt="SOBRE" width="95%"></summary>
 
-## 🛠️ Ferramentas e Tecnologias
-<div style="display: inline">
-	<img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img align="center" alt="pandas" src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
-    <img align="center" alt="html" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-	<img align="center" alt="css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-	<img align="center" alt="javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-	<img align="center" alt="bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-	<img align="center" alt="laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-	<img align="center" alt="php" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-	<img align="center" alt="python" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
-	<img align="center" alt="mysql" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
+<p align="center">
+<img src="assets/bio.svg" alt="Olá, sou Rafael. Trabalho com gestão de tecnologia e desenvolvimento de software, criando automações para melhoria de processos. No dia a dia uso Python, PHP/Laravel, JavaScript e MySQL, além de RPA para automatizar rotinas. Fora do trabalho, crio utilitários para Windows e Linux e jogos em Godot, todos publicados como código aberto." width="100%">
+</p>
 
+</details>
 
-</div>
+<details>
+<summary><img src="assets/mod-pessoais.svg" alt="PROJETOS PESSOAIS" width="95%"></summary>
 
-<br/>
+<p align="center">
+<a href="https://github.com/jrcn1991/theme-cyberkde"><img src="assets/proj-theme-cyberkde.svg" alt="CyberKDE" width="49%"></a>
+<a href="https://github.com/jrcn1991/app_halo-spatial-os"><img src="assets/proj-app_halo-spatial-os.svg" alt="Halo Spatial OS" width="49%"></a>
+<a href="https://github.com/jrcn1991/app_stage_sidebar"><img src="assets/proj-app_stage_sidebar.svg" alt="Stage Sidebar" width="49%"></a>
+<a href="https://github.com/jrcn1991/app_animated_window_borders"><img src="assets/proj-app_animated_window_borders.svg" alt="Animated Windows Borders" width="49%"></a>
+<a href="https://github.com/jrcn1991/quicklight-linux"><img src="assets/proj-quicklight-linux.svg" alt="QuickLight para Linux" width="49%"></a>
+<a href="https://github.com/jrcn1991/game_monster_pinball_relicario-do-abismo-3d"><img src="assets/proj-game_monster_pinball_relicario-do-abismo-3d.svg" alt="Monsters Pinball 3D" width="49%"></a>
+</p>
+
+</details>
+
+<p align="center"><img src="assets/rodape.svg" alt="NetWatch OS" width="100%"></p>
 
 <!--
 ## 📊 Estatísticas do GitHub
@@ -33,12 +37,6 @@
   </center>
 </div>
 -->
-
-
-
-  
-
-
 
 <!--
 **jrcn1991/jrcn1991** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
