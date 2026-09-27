@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/hero.svg" alt="Rafael Neves — Gestão de Tecnologia · Desenvolvimento · Automação" width="100%"></p>
 
-<details open>
+<details>
 <summary><img src="assets/mod-sobre.svg" alt="SOBRE" width="95%"></summary>
 
 <p align="center">
