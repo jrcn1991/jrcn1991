@@ -18,7 +18,6 @@
 <a href="https://github.com/jrcn1991/app_stage_sidebar"><img src="assets/proj-app_stage_sidebar.svg" alt="Stage Sidebar" width="49%"></a>
 <a href="https://github.com/jrcn1991/app_animated_window_borders"><img src="assets/proj-app_animated_window_borders.svg" alt="Animated Windows Borders" width="49%"></a>
 <a href="https://github.com/jrcn1991/quicklight-linux"><img src="assets/proj-quicklight-linux.svg" alt="QuickLight para Linux" width="49%"></a>
-<a href="https://github.com/jrcn1991/game_monster_pinball_relicario-do-abismo-3d"><img src="assets/proj-game_monster_pinball_relicario-do-abismo-3d.svg" alt="Monsters Pinball 3D" width="49%"></a>
 </p>
 
 </details>
